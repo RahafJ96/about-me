@@ -1,23 +1,57 @@
 .main-list{
     list-style: none;
+    
 }
 
 .main-nav{
     float: right;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: white;
+    margin-top: -8%;
+
 }
 
 h1{
     text-align: center;
-    color: rgb(0, 39, 124);
-    font-size: 200%;
+    color: rgb(0, 93, 109);
+    font-size: 400%;
 
 }
+
+.prof-info{
+    background-color: rgb(255, 255, 255);
+    width: 620px;
+    border: 8px solid rgb(0, 93, 109);
+    padding: 50px;
+    margin-left: 28%;
+    margin-top: 10%;
+    font-size: 18px;
+    align-content: center;
+    line-height: 1.8;
+
+}
+
 
 .main-item{
     display: inline-block;
     margin: 0 7px;
-    font-size: 110%;
-    text-decoration: none;           
+    font-size: 30px;
+}
+
+.main-item a:link, .main-item a:visited{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 7px 0;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.25s;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+}
+
+.paragraph-list{
+    padding-left: 50px;
+    font-size: 40px;
 }
 
 #html-paragraph{
@@ -28,5 +62,23 @@ h1{
 }
 #copyright{
     text-align: center;
-    margin-top: 10%;
+    margin-top: 20%;
+}
+
+body{
+    font-family: Tahoma, sans-serif;
+    margin-top: -2%;
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0.2)), url(https://i0.wp.com/www.librairie-totem.com/wp-content/uploads/2014/09/background-blur-blurred-1350-copy.jpg);
+    height: 790px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -1%;
+
+}
+
+.paragraph-list{
+    margin-top: 5%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
