@@ -1,0 +1,32 @@
+.main-list{
+    list-style: none;
+}
+
+.main-nav{
+    float: right;
+}
+
+h1{
+    text-align: center;
+    color: rgb(0, 39, 124);
+    font-size: 200%;
+
+}
+
+.main-item{
+    display: inline-block;
+    margin: 0 7px;
+    font-size: 110%;
+    text-decoration: none;           
+}
+
+#html-paragraph{
+    background-color: darksalmon;
+    margin-top:5%;
+    font-size: 120%;
+
+}
+#copyright{
+    text-align: center;
+    margin-top: 10%;
+}
