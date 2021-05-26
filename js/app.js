@@ -18,7 +18,8 @@ alert('Hope you have a good day ' + userName + '! You are ' + age + ' years old.
 let score = 0;
 
 // Question 1
-let favColor = prompt('Is my favorite Color Blue ?');
+function question1(params) {
+    let favColor = prompt('Is my favorite Color Blue ?');
 favColor = favColor.toUpperCase()
 if (favColor == 'YES' || favColor == 'Y') {
     alert('That\'s True! Blue is my favorite color');
@@ -29,8 +30,14 @@ if (favColor == 'YES' || favColor == 'Y') {
     alert('Wrong Asnwer, I like Blue')
 
 }
+}
+question1();
+
+
 // Question 2
-let favFood = prompt('Is my favourite food Pizza?!');
+function question2() {
+
+    let favFood = prompt('Is my favourite food Pizza?!');
 favFood = favFood.toUpperCase()
 if (favFood == 'YES' || favFood == 'Y') {
     alert('Sorry, wrong answer');
@@ -41,98 +48,101 @@ if (favFood == 'YES' || favFood == 'Y') {
     score++
 
 }
-// Question 3
-let favHobby = prompt('Do you think playing Piano is my hobby?');
-favHobby = favHobby.toUpperCase()
-if (favHobby == 'YES' || favHobby == 'Y') {
-    //console.log('Yes it is, Good Job!')
-    alert('Yes it is, Good Job!');
-    score++
-
-} else if (favHobby == 'NO' || favHobby == 'N') {
-    alert('Oops, Wrong answer')
-
 }
-// Question 4
-let pet = prompt('Do i have a cat?');
-pet = pet.toUpperCase()
-if (pet == 'YES' || pet == 'Y') {
-    alert('Nope, wrong answer');
-    //console.log('Nope, wrong answer')
+question2();
 
-} else if (pet == 'NO' || pet == 'N') {
-    alert('True, I don\'t like Pets!');
-    score++
+// // Question 3
+// let favHobby = prompt('Do you think playing Piano is my hobby?');
+// favHobby = favHobby.toUpperCase()
+// if (favHobby == 'YES' || favHobby == 'Y') {
+//     //console.log('Yes it is, Good Job!')
+//     alert('Yes it is, Good Job!');
+//     score++
 
-}
-// Question 5
-let favMovie = prompt('Do I like Movies?');
-favMovie = favMovie.toUpperCase()
-if (favMovie == 'YES' || favMovie == 'Y') {
-    alert('You are correct! ');
-    score++
+// } else if (favHobby == 'NO' || favHobby == 'N') {
+//     alert('Oops, Wrong answer')
 
+// }
+// // Question 4
+// let pet = prompt('Do i have a cat?');
+// pet = pet.toUpperCase()
+// if (pet == 'YES' || pet == 'Y') {
+//     alert('Nope, wrong answer');
+//     //console.log('Nope, wrong answer')
 
-} else if (favMovie == 'NO' || favMovie == 'N') {
-    alert('No, you are wrong');
-    //console.log('Really, are you Human?')
+// } else if (pet == 'NO' || pet == 'N') {
+//     alert('True, I don\'t like Pets!');
+//     score++
 
-}
-
-// Quetion 6
-
-for (let i = 0; i < 4; i++) {
-    let guessNumber = Number(prompt('Guess how old am I ?'));
-    let myAge = 24;
-    if (guessNumber === myAge) {
-        alert("That\'s Right!");
-        score++;
-        break;
-    } else if (guessNumber > myAge) {
-        alert('too high');
-    } else if (guessNumber < myAge) {
-        alert('too low');
-    } else {
-        alert('Next time enter a number');
-    }
-    if (i === 3) {
-        alert('I\'m 24 :D ');
-    }
-    console.log(i);
-}
-//Quetion 7
-
-let movieType = ['action', 'drama', 'romantic', 'adventure', 'comedy', 'animation'];
+// }
+// // Question 5
+// let favMovie = prompt('Do I like Movies?');
+// favMovie = favMovie.toUpperCase()
+// if (favMovie == 'YES' || favMovie == 'Y') {
+//     alert('You are correct! ');
+//     score++
 
 
+// } else if (favMovie == 'NO' || favMovie == 'N') {
+//     alert('No, you are wrong');
+//     //console.log('Really, are you Human?')
 
-let typesOfMovies = ""
+// }
 
-// while (!typesOfMovies) {
+// // Quetion 6
+
+// for (let i = 0; i < 4; i++) {
+//     let guessNumber = Number(prompt('Guess how old am I ?'));
+//     let myAge = 24;
+//     if (guessNumber === myAge) {
+//         alert("That\'s Right!");
+//         score++;
+//         break;
+//     } else if (guessNumber > myAge) {
+//         alert('too high');
+//     } else if (guessNumber < myAge) {
+//         alert('too low');
+//     } else {
+//         alert('Next time enter a number');
+//     }
+//     if (i === 3) {
+//         alert('I\'m 24 :D ');
+//     }
+//     console.log(i);
+// }
+// //Quetion 7
+
+// let movieType = ['action', 'drama', 'romantic', 'adventure', 'comedy', 'animation'];
+
+
+
+// let typesOfMovies = ""
+
+// // while (!typesOfMovies) {
+// //     typesOfMovies = prompt("Please guess my best movie type: 'Action','Drama','Romantic','Adventure','Comedy','Animation")
+// // }
+
+
+// q7: for (let i = 0; i < 6; i++) {
+
 //     typesOfMovies = prompt("Please guess my best movie type: 'Action','Drama','Romantic','Adventure','Comedy','Animation")
+
+//     for (let j = 0; j < movieType.length; j++) {
+//         console.log('type', movieType[j])
+//         if (movieType[j] == typesOfMovies) {
+//             score++
+//             alert("That\'s True! I like this type too.")
+
+//             break q7
+//         }
+
+//     }
+
 // }
 
 
-q7: for (let i = 0; i < 6; i++) {
 
-    typesOfMovies = prompt("Please guess my best movie type: 'Action','Drama','Romantic','Adventure','Comedy','Animation")
-
-    for (let j = 0; j < movieType.length; j++) {
-        console.log('type', movieType[j])
-        if (movieType[j] == typesOfMovies) {
-            score++
-            alert("That\'s True! I like this type too.")
-
-            break q7
-        }
-
-    }
-
-}
-
-
-
-alert(`${userName}, your score is  ${score}/7.  Thanks for playing! `);
+// alert(`${userName}, your score is  ${score}/7.  Thanks for playing! `);
 
 
 
