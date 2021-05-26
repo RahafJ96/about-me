@@ -78,37 +78,6 @@ if (favMovie == 'YES' || favMovie == 'Y') {
     //console.log('Really, are you Human?')
 
 }
-// Question 6
-// let travel = prompt('Do you think I like to Travel?');
-// travel = travel.toUpperCase()
-// if (travel == 'YES' || travel == 'Y') {
-//     alert('YES' + ' ' + userName + ' ' + ',everyone wants to travel! ');
-//     score++
-//     console.log('YES' + ' ' + userName + ' ' + ',everyone wants to travel! ')
-
-// } else if (travel == 'NO' || travel == 'N') {
-//     alert('Really, are you Human?');
-//     console.log('Really, are you Human?')
-
-// }
-// let guessNumber = prompt("Guess how old am I ?")
-// while (!guessNumber) {
-//     guessNumber = prompt("Please guess my age")
-// }
-// for (let i = 0; i < 3; i++) {
-
-//     if (guessNumber > 24) {
-//         alert("It is too high")
-//         guessNumber = prompt("Try Again")
-//     } else if (guessNumber < 24) {
-//         alert("It is too low")
-//         guessNumber = prompt("Try Again")
-//     } else if (guessNumber === 24) {
-//         score++
-//         alert("That\'s Right!")
-//         break
-//     }
-// }
 
 // Quetion 6
 
@@ -164,3 +133,37 @@ q7: for (let i = 0; i < 6; i++) {
 
 
 alert(`${userName}, your score is  ${score}/7.  Thanks for playing! `);
+
+
+
+// Question 6
+// let travel = prompt('Do you think I like to Travel?');
+// travel = travel.toUpperCase()
+// if (travel == 'YES' || travel == 'Y') {
+//     alert('YES' + ' ' + userName + ' ' + ',everyone wants to travel! ');
+//     score++
+//     console.log('YES' + ' ' + userName + ' ' + ',everyone wants to travel! ')
+
+// } else if (travel == 'NO' || travel == 'N') {
+//     alert('Really, are you Human?');
+//     console.log('Really, are you Human?')
+
+// }
+// let guessNumber = prompt("Guess how old am I ?")
+// while (!guessNumber) {
+//     guessNumber = prompt("Please guess my age")
+// }
+// for (let i = 0; i < 3; i++) {
+
+//     if (guessNumber > 24) {
+//         alert("It is too high")
+//         guessNumber = prompt("Try Again")
+//     } else if (guessNumber < 24) {
+//         alert("It is too low")
+//         guessNumber = prompt("Try Again")
+//     } else if (guessNumber === 24) {
+//         score++
+//         alert("That\'s Right!")
+//         break
+//     }
+// }
