@@ -3,73 +3,146 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
     <title>About Me</title>
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
+    <div class="about-me"></div>
 
-        <h1> About Me </h1>
-        <nav class="main-nav">
-            <ul class="main-list">
-                <li class="main-item"><a href="https://github.com/RahafJ96?tab=repositories">Home</a></li>
-                <li class="main-item"><a href="#help-bar">Help</a></li>
-                <li class="main-item"><a href="https://www.google.com/">Contact us</a></li>
-            </ul>
-        </nav>
+    <header>
+        <div class="container clear">
+            <h2 class="title-logo">About<span>Me</span>Game</h2>
+
+            <nav class="main-nav">
+                <ul class="main-nav__list">
+                    <li class="main-nav__item"><a href="#bio-bar">Bio</a></li>
+                    <li class="main-nav__item"><a href="#hobbie-bar">About Me</a></li>
+                    <li class="main-nav__item"><a href="#search-bar">ssss</a></li>
+                    <li class="main-nav__item"><a href="#contactus-bar">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h1 class="heading00">Welcome to </h1>
+        <h1 class="heading01"> Guessing Game </h1>
+        <h1 class="heading02">About Me </h1>
 
     </header>
+
     <main>
-        <p class="prof-info">
-            Hello, my name is Rahaf Al-Jazzazi. I’m 24 years old. I graduated with a bachelor degree in Electrical and
-            Communication engineering from German Jordanian University.<br>
-            My Hobbies are Swimming and playing Piano, My favorite food is Mansaf and Shawarma. I don't have pets, but I
-            prefer dogs on cats. Finally, I like to Travel alot.
-        </p>
+        <section class="_bio-bar" id="bio-bar">
+            <h3 class="section-heading00">Bio<span><br /> Small Brief About Me</span></h3>
 
-
-        <p class="top-title">Top 10 places to visit:</p>
-        <nav class="top-ten">
-            <ol>
-                <li>Phi Phi Islands, Thailand</li>
-                <li>Santorini, Greece</li>
-                <li>Machu Picchu, Peru</li>
-                <li>Grand Canyon, United States</li>
-                <li>Positano, Italy</li>
-                <li>Aurora Australis, Antarctica</li>
-                <li>Dolomites, Italy</li>
-                <li>Galapagos Islands</li>
-                <li>Yosemite National Park, United States</li>
-                <li>Pyramids of Giza, Egypt</li>
-            </ol>
-        </nav>
-        <nav class="work-exp">
-            <p>
-            <ul>Education
-                <li>Luminus Technical University College (LTUC), Amman, Jordan — Software Development</li>
-                <li>German Jordanian University - bachelor degree in Electrical and Communication engineering</li>
-                <li>Hochschule Bremen, Bremen, Germany — Electrical engineering at the University of Bremen</li>
-            </ul>
+            <p class="prof-info">
+                Hello, my name is Rahaf Al-Jazzazi. I’m 24 years old. I graduated with a bachelor degree in Electrical
+                and
+                Communication engineering from German Jordanian University.<br>
+                My Hobbies are Swimming and playing Piano, My favorite food is Mansaf and Shawarma. I don't have pets,
+                but I
+                prefer dogs on cats. Finally
             </p>
-            <ul>Work Expienace
-                <li>Deutsche Telekom AG , Cologne, Germany — Intern in the department of the organization service (ORS)
-                </li>
-                <li>Orange Company, Amman, Jordan — Intern as web developer</li>
-            </ul>
-        </nav>
+
+
+        </section>
+
+       
+        <section class="_hobbie-bar" id="hobbie-bar">
+            <h3 class="section-heading">About Me</h3>
+            <div class="hobbie-box">
+                <img src="https://static.vecteezy.com/system/resources/previews/002/184/771/non_2x/online-virtual-graduation-free-vector.jpg"
+                alt="education" class="hobbie-box__img">
+                <p class="hobbie-box__title">education</p>
+                <p class="hobbie-box__catagory">Education</p>
+            </div>
+            <div class="hobbie-box">
+                <img src="https://i.pinimg.com/originals/68/a4/26/68a4268be533734470dddea128fb0e9a.png"
+                    alt="culture" class="hobbie-box__img">
+                <p class="hobbie-box__title">work</p>
+                <p class="hobbie-box__catagory">Work Experience</p>
+                
+            </div>
+            <div class="hobbie-box">
+                <img src="https://i.pinimg.com/564x/08/18/e0/0818e019b9a1a31cda59e9d41d7e7196.jpg" alt="hobbies"
+                    class="hobbie-box__img">
+                <p class="hobbie-box__title">hobby</p>
+                <p class="hobbie-box__catagory">Hobbies</p>
+            </div>
+            <div class="hobbie-box">
+                <img src="https://i.pinimg.com/564x/75/36/3c/75363c99bec86ac0eb8bd8b609d87d44.jpg" alt="New Experience"
+                    class="hobbie-box__img">
+                <p class="hobbie-box__title">food</p>
+                <p class="hobbie-box__catagory">Favorite Food</p>
+            </div>
+
+
+
+        </section>
+
+        <section class="search-bar" id="search-bar">
+            <h3 class="section-heading">Top 10<span><br/> Places to visit</span></h3>
+
+            <div class="search-box">
+                <img src="https://i.pinimg.com/564x/3c/91/a9/3c91a927e66ae3b3c185b09acb1ae3f3.jpg"
+                    alt="london" class="search-box__img">
+                <p class="search-box__title">london</p>
+                <p class="search-box__catagory">UK</p>
+            </div>
+            <div class="search-box">
+                <img src="https://i.pinimg.com/564x/48/03/bd/4803bd3155f2fe78bf896902c67bc493.jpg" alt="Paris"
+                    class="search-box__img">
+                <p class="search-box__title">eiffel</p>
+                <p class="search-box__catagory">France</p>
+            </div>
+            <div class="search-box">
+                <img src="https://i.pinimg.com/564x/8d/fc/fe/8dfcfec50e6ff2a6afee4469d63598fd.jpg" alt="Italy"
+                    class="search-box__img">
+                <p class="search-box__title">venice</p>
+                <p class="search-box__catagory">Italy</p>
+            </div>
+
+            <!-- <div class="image-box clear"> -->
+            <div class="search-box">
+                <img src="https://i.pinimg.com/564x/74/67/b1/7467b173fde8a4d9cc02ba1127264b89.jpg" alt="Tokyo, Japan"
+                    class="search-box__img">
+                <p class="search-box__title">tokyo</p>
+                <p class="search-box__catagory">Japan</p>
+            </div>
+
+            <div class="search-box">
+                <img src="https://i.pinimg.com/564x/e7/5d/3f/e75d3f08657c3dc284c0da97525e0e5e.jpg"
+                    alt="cologne_cathedral" class="search-box__img">
+                <p class="search-box__title">Cologne Cathedral</p>
+                <p class="search-box__catagory">Germany</p>
+            </div>
+            <!-- </div> -->
+        </section>
+
+
     </main>
 
 
-    <footer id="copyright">
-        Copyright &copy; 2010-2021 All rights reserved.
+    <footer>
+        <h3 class="title-logo--footer">About<span>Me</span>Game</h3>
+        <nav class="footer-nav">
+            <ul class="footer-nav__list">
+                <li class="footer-nav__item"><a href="#bio-bar">Bio</a></li>
+                <li class="footer-nav__item"><a href="#hobbie-bar">Hobbies</a></li>
+            </ul>
+        </nav>
+        <div class="clear"></div>
+        <p class="copy-rights">
+            Copyright &copy; 2010-2021 All rights reserved.
+        </p>
     </footer>
 
     <script src="js/app.js"></script>
+
+
 </body>
 
 </html>
