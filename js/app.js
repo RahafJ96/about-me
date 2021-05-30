@@ -122,7 +122,7 @@ function question6() {
         if (i === 3) {
             alert('I\'m 24 :D ');
         }
-        console.log(i);
+        // console.log(i);
     }
 }
 question6();
